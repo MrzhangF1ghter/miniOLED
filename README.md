@@ -10,7 +10,7 @@
 > |RST |BCM25|pin6 | 20 |
 > |SDA |BCM10|pin12| 22 |
 > |SCLK|BCM11|pin14| 24 |
-> 请将模块以右侧插座方向插入排针号为17~24的引脚
+请将模块以右侧插座方向插入排针号为17~24的引脚
 ### 原理图如下:
 [RainbowCandyBoard.pdf](https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniPOLED.pdf)<br>
 <img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/oled.png" width=50% height=50%/><br>
