@@ -1,8 +1,7 @@
-# MrzhangF1ghterStudio 彩虹RainbowHAT系列
+# MrzhangF1ghterStudio MiniOLED模块
 # OLED教程 （wiringPi C库版本）
 
-## 玩转代码
-> ### 在我们的彩虹扩展板上 OLED是挂在原生SPI0接口上的，具体引脚如下:
+> ### 我们的MiniOLED是挂在原生SPI0接口上的，只占用6个引脚，具体引脚如下:
 > |引脚|GPIO| wPi |排针号|
 > |----|--- |-----|-----|
 > |CS  |BCM8 |pin10| 16 |    
@@ -10,12 +9,12 @@
 > |RST |BCM25|pin6 | 20 |
 > |SDA |BCM10|pin12| 22 |
 > |SCLK|BCM11|pin14| 24 |
-
+请将模块以右侧插座方向插入排针号为17~24的引脚
 ### 原理图如下:
-[RainbowCandyBoard.pdf](https://github.com/MrzhangF1ghter/RainbowCandyBoard/blob/master/schematic/RainbowCandyBoard.pdf)<br>
-<img src="https://github.com/MrzhangF1ghter/RainbowCandyBoard/blob/master/oled/schematic/oled.png" width=50% height=50%/><br>
-<img src="https://github.com/MrzhangF1ghter/RainbowCandyBoard/blob/master/oled/schematic/oled_pin.png" width=50% height=50%/><br>
+[RainbowCandyBoard.pdf](https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniPOLED.pdf)<br>
+<img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/oled.png" width=50% height=50%/><br>
 > 用户可自行更换OLED显示屏，为7pin spi接口的 0.96寸128x64分辨率。
+
 > 由于代码庞大，只展现主文件，oled具体实现可自行阅读理解，也可以学习arduino、stm32相关教程，触类旁通。
 首先先用gedit、pluma、vim等文本编辑工具打开该文件夹下的led.c,如下，我们可以看看注释进行理解。
 ```C
