@@ -17,6 +17,6 @@
 请将模块以右侧插座方向插入排针号为17~24的引脚
 ### 原理图如下:
 [RainbowCandyBoard.pdf](https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniOLED.pdf)<br>
-<img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/oled.png" width=50% height=50%/><br>
+<img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniOLED.png" width=50% height=50%/><br>
 > 用户可自行更换OLED显示屏，为7pin spi接口的 0.96寸128x64分辨率。
 > 相关代码和教程请打开对应文件夹查看 
