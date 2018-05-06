@@ -1,4 +1,4 @@
-# MrzhangF1ghterStudio 彩虹RainbowHAT系列
+# MrzhangF1ghterStudio MiniOLED模块
 # OLED教程 （wiringPi C库版本）
 
 > ### 我们的MiniOLED是挂在原生SPI0接口上的，只占用6个引脚，具体引脚如下:
