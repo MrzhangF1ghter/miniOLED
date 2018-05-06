@@ -1,8 +1,12 @@
 # MrzhangF1ghterStudio MiniOLED模块
 # OLED模块使用教程
 
-## 玩转代码
-> ### 在我们的MiniOLED是挂在原生SPI0接口上的，只暂用6个引脚，具体引脚如下:
+<img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/view.jpg" width=50% height=50% /><br>
+
+### 新手引导:
+> https://github.com/MrzhangF1ghter/RainbowCandyBoard/wiki
+
+> ### 我们的MiniOLED是挂在原生SPI0接口上的，只占用6个引脚，具体引脚如下:
 > |引脚|GPIO| wPi |排针号|
 > |----|--- |-----|-----|
 > |CS  |BCM8 |pin10| 16 |    
