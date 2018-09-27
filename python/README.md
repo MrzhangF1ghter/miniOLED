@@ -10,8 +10,8 @@
 > |SCLK|BCM11|pin14| 24 |
 请将模块以右侧插座方向插入排针号为17~24的引脚
 ### 原理图如下:
-[RainbowCandyBoard.pdf](https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniPOLED.pdf)<br>
-<img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/oled.png" width=50% height=50%/><br>
+[RainbowCandyBoard.pdf](https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniOLED.pdf)<br>
+<img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniOLED.png" width=50% height=50%/><br>
 > 用户可自行更换OLED显示屏，为7pin spi接口的 0.96寸128x64分辨率。
 
 ### 该Python版本是使用开源库Adafruit_Python_SSD1306,下面是安装教程
