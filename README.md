@@ -20,3 +20,5 @@
 <img src="https://github.com/MrzhangF1ghter/miniOLED/blob/master/schematic/miniOLED.png" width=50% height=50%/><br>
 > 用户可自行更换OLED显示屏，为7pin spi接口的 0.96寸128x64分辨率。
 > 相关代码和教程请打开对应文件夹查看 
+树莓派的SPI默认是关闭的（这一点和I2C类似），打开方法有多种，在这仅介绍一种
+运行raspi-config，找到interface 把spi打开
